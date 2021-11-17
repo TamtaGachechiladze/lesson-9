@@ -1,0 +1,23 @@
+.box-child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+.box-child:nth-child(2){
+    background-color: royalblue;
+}
+.box-child:nth-child(3){
+    background-color: green;
+}
+.boxes {
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center  ;
+    background-color: purple;
+    flex-direction: column-reverse;
+  
+}
